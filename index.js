@@ -13,7 +13,7 @@ const fs = require("fs");
 var config = {
     brand: "helios",
 
-    webhook: "",
+    webhook: "%WEBHOOK%",
 
     logout: true,
     disable_qr_code: true,
